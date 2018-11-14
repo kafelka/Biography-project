@@ -58,7 +58,7 @@ blockquote {
 
 .topQuote {
   padding-right: 50px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 0.5rem;
   /* animation-name: example;
   animation-duration: 2s;
@@ -89,39 +89,7 @@ blockquote {
     100% {margin-left:56px;}
 } */
 
-.bottomQuote {
-  margin-left: 36%;
-  font-size: 26px;
-  text-shadow: 2px 2px 2px black;
-}
 
-@media only screen and (min-width: 1550px) {
-  .bottomQuote {
-    margin-left: 48%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .bottomQuote {
-    margin-left: 12%;
-    font-size: 22px;
-    color: #d50000;
-  }
-}
-
-
-article {
-  margin-left: 10px;
-  width: 55%;
-}
-
-@media only screen and (max-width: 800px) {
-  article {
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 3px;
-  }
-}
 
 span {
   color: #0d47a1;
@@ -138,12 +106,17 @@ a:visited {
   color: #fbc02d;
 }
 
-.row p {
-  margin-bottom: 0;
+article p {
+  margin-bottom: 1.5rem;
   letter-spacing: 1px;
   background-color: rgba(0,0,0,0.2);
 }
 
+.bottomQuote p {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px black;
+  margin-left: 2rem;
+}
 /* p:last-of-type {
   margin-bottom: 0;
 } */
@@ -173,7 +146,7 @@ p:nth-child(4) {
   }
 } */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   p {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -195,7 +168,7 @@ p:nth-child(4) {
   }
   p:nth-child(4) {
     width: 90%;
-  }
+  } */
 }
 
 footer {
