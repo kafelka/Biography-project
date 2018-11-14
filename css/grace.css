@@ -5,12 +5,12 @@ body {
   opacity: 0.75;
   font-family: 'KoHo', sans-serif;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 @media only screen and (min-width: 1550px) {
   body {
-    background-position: 2% 37%;
+    background-position: 20% 34%;
   }
 }
 
@@ -48,8 +48,14 @@ h1 {
   letter-spacing: 3px;
  }
 
+header img {
+  margin-left: -13px;
+  border-radius: 22%;
+}
+
 .img-fluid {
   float: left;
+  border: 1px solid #0D4D4D;
   margin-right: 1.5rem;
 }
 
@@ -123,9 +129,8 @@ article p {
 }
 
 .bottomQuote p {
-  /* font-size: 2rem; */
   text-shadow: 2px 2px 2px black;
-  margin-left: 2rem;
+  margin-left: 4.5rem;
 }
 /* p:last-of-type {
   margin-bottom: 0;
@@ -179,15 +184,11 @@ p:nth-child(4) {
   p:nth-child(4) {
     width: 90%;
   } */
-}
+
 
 footer {
   padding: 10px;
   background-color: #000080;
-}
-
-footer {
-  font-size: 14px;
 }
 
 footer a:link {
@@ -196,9 +197,8 @@ footer a:link {
 
 footer a:visited {
   color: #fbc02d;
-  text-decoration: none;
 }
 
 footer a:hover {
-  color: black;
+  color: red;
 }
