@@ -10,7 +10,7 @@ body {
 
 @media only screen and (max-width: 1550px) {
   body {
-    background-position: 20% 34%;
+    background-position: 30% 30%;
   }
 }
 
@@ -23,7 +23,7 @@ body {
 
 @media only screen and (max-width: 992px) {
   body {
-    background-position:
+    background-position: 55% 0;
     font-size: 1.25rem;
   }
 }
@@ -35,10 +35,11 @@ body {
   }
 }
 
-@media only screen and (max-width: px) {
+@media only screen and (max-width: 600px) {
   body {
     background-image: url("../images/grace85.jpg");
     background-position: 35% 30%;
+    background-size: cover;
     font-size: 1.25rem;
   }
 }
@@ -47,15 +48,12 @@ body {
   background-color: #000080;
   padding: 1rem;
 }
- /* header {
-   position: fixed;
-   top: 0;
- } */
 
- /* main {
-  padding-top: 155px
- } */
-
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+   margin-bottom: 0.5rem;
+  }
+}
 
 .header {
   display: flex;
@@ -95,6 +93,12 @@ header img {
 @media only screen and (max-width: 992px) {
   .blockquote {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blockquote {
+    font-size: 1.2rem;
   }
 }
 
